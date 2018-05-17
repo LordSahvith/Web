@@ -1,21 +1,61 @@
+html {
+    background-color: #869960;
+}
+
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
+    background-color: #fff;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 0;
+    color: #617140;
+}
+
+header h1{
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
 }
 
 .content-area {
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
 }
 
 .main-area {
     width: 66%;
     float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
 }
 
 .sidebar {
     width: 34%;
     float: left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #888;
+    padding: 20px 0;
 }
 
 .group:before,
