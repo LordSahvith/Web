@@ -7,6 +7,29 @@ body {
     font-size: 87%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* BANNER */
+.image-banner {
+    position: relative;
+}
+
+.image-banner img {
+    display: block;
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 25px;
+}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
