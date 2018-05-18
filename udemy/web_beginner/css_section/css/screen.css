@@ -3,8 +3,8 @@ html {
 }
 
 body {
-    font-family: Tahoma, sans-serif;
-    font-size: 87%;
+    font-family: 'Playfair Display', Tahoma, sans-serif;
+    font-size: 95%;
     line-height: 1.75;
 }
 
@@ -92,6 +92,12 @@ header p {
     border-bottom: 3px solid #e5e9dc;
 }
 
+.content-area h2 {
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-family: 'Kavivanar';
+}
+
 .main-area {
     width: 66%;
     float: left;
@@ -114,6 +120,38 @@ header p {
     background-image: -o-linear-gradient(top, #e5e9dc, #fff);
     background-image: linear-gradient(to bottom, #e5e9dc, #fff);
 }
+
+/* UI MENU */
+.ui-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ui-menu li {
+    float: left;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.ui-menu a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+    text-indent: 9999px;
+}
+
+.ui-home a:hover { background-position: -50px 0; }
+
+.ui-profile a { background-position: 0 -50px; }
+
+.ui-profile a:hover { background-position: -50px -50px; }
+
+.ui-settings a { background-position: 0 -100px; }
+
+.ui-settings a:hover { background-position: -50px -100px; }
+
 
 footer {
     text-align: center;
