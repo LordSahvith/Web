@@ -5,6 +5,7 @@ html {
 body {
     font-family: Tahoma, sans-serif;
     font-size: 87%;
+    line-height: 1.75;
 }
 
 img {
@@ -104,7 +105,14 @@ header p {
     background-color: #e5e9dc;
     padding: 20px 40px;
     box-sizing: border-box;
-    font-size: 85%;
+    font-size: 114%;
+    background-color: #e5e9dc;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e5e9dc), to(#fff));
+    background-image: -webkit-linear-gradient(top, #e5e9dc, #fff);
+    background-image: -moz-linear-gradient(top, #e5e9dc, #fff);
+    background-image: -ms-linear-gradient(top, #e5e9dc, #fff);
+    background-image: -o-linear-gradient(top, #e5e9dc, #fff);
+    background-image: linear-gradient(to bottom, #e5e9dc, #fff);
 }
 
 footer {
